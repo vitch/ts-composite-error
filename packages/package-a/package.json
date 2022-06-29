@@ -1,0 +1,34 @@
+{
+  "name": "ts-composite-error-a",
+  "version": "0.0.0",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "ssh://"
+  },
+  "license": "MIT",
+  "author": "Kelvin Luck",
+  "scripts": {},
+  "typesVersions": {
+    "*": {
+      "*": [
+        "declarations/src/*",
+        "declarations/src/*/index"
+      ]
+    }
+  },
+  "dependencies": {
+    "ts-composite-error-b": "*"
+  },
+  "devDependencies": {
+    "typescript": "4.5.4"
+  },
+  "engines": {
+    "node": ">=16.13.0"
+  },
+  "volta": {
+    "node": "16.15.1",
+    "yarn": "1.22.19"
+  }
+}
+  

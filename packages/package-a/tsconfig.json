@@ -1,0 +1,17 @@
+{
+  "$schema": "http://json.schemastore.org/tsconfig",
+  "extends": "../../tsconfig.compiler-options.json",
+  "compilerOptions": {
+    "composite": true,
+    "baseUrl": "./src",
+    "declarationDir": "./declarations",
+    "paths": {
+      "ts-composite-error-a": ["."],
+      "ts-composite-error-a/*": ["./*"],
+    }
+  },
+  "include": ["./src"],
+  "references": [
+    { "path": "../package-b/tsconfig.json"}
+  ]
+}

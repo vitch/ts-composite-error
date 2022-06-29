@@ -1,4 +1,8 @@
 {
+  "files": [],
   "references": [
+    { "path": "packages/package-a/tsconfig.json" },
+    { "path": "packages/package-b/tsconfig.json" },
+    { "path": "packages/package-c/tsconfig.json" }
   ]
 }
