@@ -1,0 +1,28 @@
+// https://www.typescriptlang.org/v2/en/tsconfig
+{
+  "compilerOptions": {
+    "allowJs": false,
+    "allowSyntheticDefaultImports": true,
+    "alwaysStrict": true,
+    "checkJs": false,
+    "emitDeclarationOnly": true,
+    "experimentalDecorators": true,
+    "importsNotUsedAsValues": "error",
+    "inlineSourceMap": true,
+    "inlineSources": true,
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "noEmitOnError": false,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitAny": true,
+    "noImplicitReturns": false,
+    "noImplicitThis": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "strictBindCallApply": true,
+    "strictNullChecks": true,
+    "strictPropertyInitialization": true,
+    "target": "ESNext",
+  }
+}
+  

@@ -1,0 +1,30 @@
+{
+  "name": "ts-composite-error",
+  "version": "0.0.0",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@bitbucket.cicd.dc:7999/ux/falcon-console.git"
+  },
+  "license": "MIT",
+  "author": "Kelvin Luck",
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
+  "scripts": {
+    "build:types": "tsc --build --clean && tsc --build"
+  },
+  "devDependencies": {
+    "typescript": "4.5.4"
+  },
+  "engines": {
+    "node": ">=16.13.0"
+  },
+  "volta": {
+    "node": "16.15.1",
+    "yarn": "1.22.19"
+  }
+}
+  
